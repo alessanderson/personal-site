@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alessanderson C. Almeida</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Alessanderson Almeida" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Alessanderson">Alessanderson<br />de Castro Almeida</h1>
+
+          <p class="title">Computer Enginner and Digital Expert</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+                <a href="mailto:contato@alessanderson.com.br" class="contact-link"><p class="contact-title">Email</p></a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+                <a href="https://linkedin.com/in/alessanderson" class="contact-link"><p class="contact-title">Linkedin</p></a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <a href="https://github.com/alessanderson/" class="contact-link"><p class="contact-title">Github</p></a>
+              <a href="https://github.com/alessanderson/" class="contact-link">@alessanderson</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <p class="contact-title">Bras&iacute;lia-DF, Brasil</p>
+              
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a IT Infrastructure and Security Specialist, with focus on hybrid environments (on-premisses/cloud). 
+            <br />Knowledge on: Linux/Windows Systems | Kubernetes | GitOps.
+          </p>
+          
+          <p>
+            Experience in IT activities at Brazilian public service since 2008. 
+            Skills in analysis and support of hybrid environments and in team leadership, with experience in coordinating 
+            support teams and IT infrastructure. 
+            Acting with a holistic view, multidisciplinary actions and focus on results.
+          </p>
+        </section>
+
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Certifications</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cert1.png" alt="Certified in CyberSecurity" width="80">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">(ISC)² Certified in CyberSecurity</h4>
+
+                <p class="service-item-text">
+                  The vendor-neutral CC credential starts newcomers on their path to advanced cybersecurity certifications and future leadership roles.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cert2.png" alt="AWS Solutions Architect - Associate" width="80">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AWS Solutions Architect - Associate</h4>
+
+                <p class="service-item-text">
+                  The holder of this credential demonstrated the ability to build secure and robust solutions using 
+                  architectural design principles based on customer requirements.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cert3.png" alt="OCI Certified Foundations - Associate" width="80">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">OCI Certified Foundations - Associate</h4>
+
+                <p class="service-item-text">
+                  This certification is intended for individuals looking to demonstrate fundamental knowledge of public cloud services 
+                  provided by OCI.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cert4.png" alt="Cisco Introduction to cybersecurity" width="80">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">CISCO Introduction to Cybersecurity</h4>
+
+                <p class="service-item-text">
+                  The holder of this credential understand vulnerabilities and threat detection and defense. 
+                  They also understand the global implications of cyber threats on industries.
+                </p>
+              </div>
+
+            </li>
+
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/cert5.png" alt="Fundamentos Na Lei Geral De Proteção De Dados" width="80">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">CertiProf Fundamentos na Lei Geral De Proteção De Dados</h4>
+
+                <p class="service-item-text">
+                  The holder of this badge has validated his skills and knowledge in brazilian General Data Protection Law (LGPD).
+                  They show a broad familiarization with the law that provides the processing of personal data, even in digital media, 
+                  by a natural or legal person under public or private law
+                </p>
+              </div>
+
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universidade Cat&oacute;lica de Bras&iacute;lia</h4>
+
+              <span>2011 — 2012</span>
+
+              <p class="timeline-text">
+                Postdegree in Digital Expert
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instituto de Educação Superior de Bras&iacute;lia</h4>
+
+              <span>2001 — 2009</span>
+
+              <p class="timeline-text">
+                Degree in Computer Engineer
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Escola T&eacute;cnica de Bras&iacute;lia</h4>
+
+              <span>1999 — 2001</span>
+
+              <p class="timeline-text">
+                Technician in Industrial Computing
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">FUNPRESP-EXE: IT Infrastructure Analyst</h4>
+
+              <span>2019 — Present</span>
+
+              <p class="timeline-text">
+                <ul class="timeline-text">
+                  <li>Activities replacing the IT Security and Infrastructure Coordinator;</li>
+                  <li>Adaptation of PHP and .NET systems to the kubernetes environment (application containerization);</li>
+                  <li>Audit of IT systems and services, with log analysis and event correlation;</li>
+                  <li>Analysis, selection and implementation of IT solutions</li>
+                </ul>
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Brazilian Federal Council of Dentistry: IT Support Analyst</h4>
+
+              <span>2017 — 2019</span>
+
+              <p class="timeline-text">
+                <ul class="timeline-text">
+                  <li>Coordination of IT infrastructure related projects;</li>
+                  <li>Implementation and maintenance of technological solutions to support the core business;</li>
+                  <li>Configuration, maintenance and installation of workstations, servers, network assets and network management software;</li>
+                  <li>Elaboration of documentation for IT public procurement processes.</li>
+                </ul>
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Brazilian Army - Geographical Service Board: IT Department Head </h4>
+
+              <span>2010 — 2016</span>
+
+              <p class="timeline-text">
+                <ul class="timeline-text">
+                  <li>Temporary Technician Officer - 1st Lieutenant rank;</li>
+                  <li>Implementation and maintenance of virtualized solutions (XenServer)</li>
+                  <li>Configuration, maintenance and installation of workstations, servers, network assets and network management software;</li>
+                  <li>Elaboration of documentation for IT public procurement processes.</li>
+                </ul>
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Brazilian Army - Center for Images and Geographic Information: IT Technician </h4>
+
+              <span>2008 — 2010</span>
+
+              <p class="timeline-text">
+                <ul class="timeline-text">
+                  <li>Temporary non-commissioned officer - 3rd Sergeant;</li>
+                  <li>Implementation and maintenance of virtualized solutions (XenServer)</li>
+                  <li>Configuration, maintenance and installation of workstations, servers, network assets and network management software;</li>
+                  <li>Elaboration of documentation for IT public procurement processes.</li>
+                </ul>
+                
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-select-value>Select category</div>
+
+            </button>
+
+          </div>
+
+          
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+
+
+
+
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
